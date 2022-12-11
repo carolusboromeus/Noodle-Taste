@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Bellezea;
+    src: url(./Produk/Font/Belleza.ttf);
+}
+
+body{
+    font-family: Bellezea;
+    background-color: rgb(163, 163, 163);
+}
+
+.nav-link {
+    text-transform:uppercase;
+    font-size: large;
+}
+
+.nav-item {
+    margin:8px;
+}
+
+.topbar {
+    background-color: lightgray;
+    border-bottom: 10px ridge #5f764f;
+}
+ 
+.nav-link:hover {
+    font-weight: bold;
+    background-color: whitesmoke; 
+    padding: 5px;
+}
+
+.active  {
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: white;
+}
+
+.carousel-inner .img-fluid {
+    width: 1320px;
+    height: 400px;
+    opacity: 0.85;
+    max-height:400px;
+    object-fit:cover;
+}
+
+#footer-logo {
+    margin-left: auto;
+    margin-top: 65px;
+    width: 200px; 
+    height: 155px; 
+}
+
+.footer-bar {
+    list-style-type:none; 
+    margin-top:37px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-li {
+    margin-bottom: 10px;
+    color: #5f764f;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:37px;
+    margin-bottom: 20px;
+    color: #5f764f;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #5f764f;
+}
+
+.footer-link:hover {
+    color: #545454;
+    text-decoration: underline;
+}
+
+.footer-p {
+    margin-left:auto;
+    margin-bottom: 10px;
+    color: #5f764f;
+}
+
+.footer-icon-bar{
+    margin-top:40px;
+    margin-left: auto;
+    list-style-type:none; 
+}
+
+.footer-icon-li{
+    display: inline;
+}
+
+.footer-icon-link{
+    width:40px; 
+    height:40px;
+    filter: brightness(-100%);
+    margin: 5px;
+}
+
+.footer-icon-link:hover{
+    filter:opacity(100%);
+}
+
+#bottom-bar {
+    height:auto;
+    width:100%;
+    background-color: lightgray;
+    border-top: 8px groove #5f764f;
+}
